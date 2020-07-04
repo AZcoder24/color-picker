@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AZ Colors</title>
+    </head>
+    <style>
+        .color-picker {
+            padding: 80px;
+        }
+        
+         #send {
+            height: 90px;
+            width: 200px;
+            border-color: #4390c2;
+            margin-right: 60px;
+        }
+        
+        #result {
+            font-family: arial;
+            font-size: 40px;
+        }
+    </style>
+    <body>
+        <div class="color-picker">
+        <center>
+        <input type="color" id="send" oninput="result.value=send.value"/>
+        <input type="text" id="result"/>
+        </center>
+        </div>
+    </body>
+</html>
